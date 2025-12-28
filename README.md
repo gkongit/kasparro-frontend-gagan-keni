@@ -51,36 +51,6 @@ No backend or authentication is implemented. All data is **mocked, typed, and st
     /data            # Mock data services (brands, audit reports)
     /store           # Global state management (selected brand, module)
     /types
-src/
-├── app/
-│   ├── (public)/
-│   │   ├── page.tsx
-│   │   ├── platform/page.tsx
-│   │   └── about/page.tsx
-│   ├── app/
-│   │   ├── dashboard/page.tsx
-│   │   ├── audit/page.tsx
-│   │   └── architecture/page.tsx
-│   └── layout.tsx
-│
-├── components/
-│   ├── layout/
-│   ├── features/
-│   └── ui/
-│
-├── data/
-│   ├── brands.json
-│   ├── audit-modules.json
-│   └── architecture.json
-│
-├── store/
-│   ├── brand-store.ts
-│   └── audit-store.ts
-│
-├── types/
-│   ├── audit.ts
-│   ├── brand.ts
-│   └── architecture.ts
 ```
 
 ---
